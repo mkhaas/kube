@@ -1,0 +1,6 @@
+apiVersion: k8s.lfs258.com/v1
+kind: PinGuin
+metadata:
+  name: crazy
+  labels:
+    kubernetes: rocks

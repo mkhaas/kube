@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ghost-name
+  namespace: default
+spec:
+  containers:
+  - image: ghost
+    imagePullPolicy: IfNotPresent
+    name: ghost
+  restartPolicy: Always
+  nodeName: minikube
